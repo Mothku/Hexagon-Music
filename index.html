@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/ad0c4e912f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <title>Hexagon Music Shop</title>
+    <link rel="icon" href="images/hexagon-icon.png"" type="image/hexagon-icon">
+
+    
+</head>
+
+
+
+<body>
+    <header class="bg-dark w-100">
+      <nav class="nav-bar ai-c jc-sb py-1 max-w-0 w-95">
+        <div class="nav--left ai-c">
+          <div class="nav__brand">
+            <div class="nav__brand__logo mr-2">
+              <img class="nav__brand__logo__img" src="images/hexagon-icon.png" alt="hexagon-icon" />
+            </div>
+            <div class="nav__brand__name"><a class="brand-name--sm-w" href="https://guitarstore.pages.dev/">Hexagon</a></div>
+          </div>
+
+          <div class="nav__menu--short px-3 py-1 ai-c">
+            <div><a href="#.html"><i class="fas fa-bars"></i></a></div>
+          </div>
+
+          <div class="nav__menu ai-c tupper">
+            <a class="nav__menu__item" href="#"> 
+              <div class="nav__menu__item co-r ai-c">
+                <div class="nav__menu__item-icon mr-2">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="nav__menu_item-text">home</div>
+              </div>
+            </a>
+
+            <a class="nav__menu__item" href="search.html">
+              <div class="nav__menu__item co-l ai-c">
+                <div class="nav__menu__item-icon mr-2">
+                  <i class="fas fa-record-vinyl"></i>
+                </div>
+                <div class="nav__menu_item-text">collection</div>
+              </div>
+            </a>
+
+            <a class="nav__menu__item" href="#">
+              <div class="nav__menu__item co-l ai-c">
+                <div class="nav__menu__item-icon mr-2">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="nav__menu_item-text">shopping</div>
+              </div>
+            </a>
+            </div>
+            
+
+          
+        </div>
+
+        <div class="profile-icon d-none d-md-flex d-lg-none"><i class="fas fa-user"></i></div>
+        <div class="nav--right ai-c d-none d-lg-flex h-100">
+          <div class="messages mr-4">
+            <a href="#"><i class="fas fa-envelope co-l"></i></a>
+          </div>
+        
+          <div class="profile h-100 ai-c">
+            <div class="profile__name co-w mr-2 f-gb">Saikrishna Mothku</div>
+          <div class="profile__img h-100 ai-c">
+              <img class="h-100 round" src="images/face.jpg" alt="face" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+    <header class="upper container-fluid bg-info pt-6">
+      <img class="watermark" src="images/b.png" alt="hexagon-big">
+      <div class="z-2 container max-w-90 w-90">
+        <div class="container flex-col ai-c mb-5">
+          <div class="brand-name--lg-w w-mc">Hexagon Music Inc</div><br>
+          <h1 class="co-w f-hl">
+            Your marketplace for buying and selling Musical Instruments
+          </h1>
+        </div>
+
+
+        <div class="search container-fluid ai-c jc-sb w-100">
+          <div class="search-top h-search ai-c">
+            <div
+              class="search__dropdown bg-white h-100 w-20 bord-r-red ai-c pl-1 pr-3  d-none d-md-flex">
+              <div class="search__dropdown-icon co-dt m-2">
+                <i class="fas fa-caret-down"></i>
+               </div>
+               <div class="search__dropdown-text co-dt f-gl">Instruments</div>
+                </div>
+                <div class="search__question bg-white h-100 bord-r-red co-l ai-c f-gl pl-2">
+                What do you search for?
+                </div>
+                <input type="text" placeholder="Search" class="search__input h-100 co-l"/>
+               </div>
+                <div class="search-btn-div h-100">
+                <a href="search.html"><div class="search__button btn-dark w-100 ai-c jc-c">Search</div></a>
+           </div>
+        </div>
+      </div>
+    </header>
+
+     
+
+    <main>
+      <div class="hotads py-3 co-l f-hm">
+        <div class="hotads-cont container ai-c h-100 px-0">
+          <div class="hotads__arrow_circle round w-mc ai-c jc-c co-r d-none d-md-flex">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+
+          <div class="hotads__main flex-col w-100 center h-90 px-4">
+            <div class="hotads__main_title pb-3">ADS</div>
+            <div class="hotads__main_content jc-sb">
+              <img id="hotads__main_content-img">
+              <div class="hotads__main_content-img"></div>
+              <div class="hotads__main_content-info py-3">
+                <h3 class="co-r f-hm">AEG 50L Acoustic Guitar</h3>
+                <div class="auto-p">
+
+                <p class="auto-p f-hl co-d">
+                  The AEG Series' slender, single-cutaway bodies deliver powerful and balanced acoustic sound, unplugged or through an amp or PA system.
+                   These guitars combine easy playability, classic solid and sunburst finishes, and intuitive electronics to create a quality, workhorse acoustic guitar that will rise to any occasion.
+                   High quality Ibanez under-saddle pickups and Ibanez preamps with onboard tuners provide sparkling tones that sound great in any environment.
+                </p>
+                </div>
+                <p class="co-d">By: <span class="co-l f-hl">Saikrishna Mothku</span></p>
+                <p class="mb-0 co-d">
+                  Location: <span class="co-l f-hl">India</span>
+                </p>
+                <div class="hotads__main_content-info-button w-mc ai-c mt-2">
+                  <button type="button" class="btn-red m-0 center ai-c py-2">₹50,000</button>
+                  <button type="button" class="btn-red mx-0 ai-c">
+                    <i class="fas fa-shopping-cart mr-2"></i>
+                    <span>Purchase Details</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hotads__arrow_circle round w-mc ai-c jc-c co-r d-none d-md-flex">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="products bg-lighter py-4">
+        <div class="products__display w-90 center">
+          <div class="products__display__header ai-c mb-3 co-d">
+            <i class="fas fa-guitar mr-4 co-l"></i>
+            <img id="products__display__cards-item--img" >
+            <h5>Acoustic Guitars</h5>
+            <p class="my-0 ml-5 co-l f-hl">
+              (Advanced Acoustic , Talman, Classical and Mandolins.)
+            </p>
+          </div>
+          <div class="products__display__cards ai-c jc-sb">
+
+            <div class="products__display__cards-item">
+             
+              <div class="products__display__cards-item--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-30 mx-3 pt-1">
+                <h6 class="co-dt">Advanced AAD400CE Acoustic Platinum Guitar</h6>
+                <p class="co-r f-gb my-0">New Launch</p>
+                <span class="co-l"> From:<span class="co-dt"> India</span></span>
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹30,000</div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-items--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Talman TCS50 Acoustic Guitar</h6>
+                <p class="co-r f-gb my-0">New Launch</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹45,000</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemd--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Classical Acoustic Guitar</h6>
+                <p class="co-r f-gb my-0">New Launch</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹45,000</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemr--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Mandolins M510E Acoustic Guitar</h6>
+                <p class="co-r f-gb my-0">New Launch</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹50,000</div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="products__display w-90 center mt-5">
+          <div class="products__display__header ai-c mb-3 co-d">
+            <i class="fas fa-guitar mr-4 co-l"></i>
+            <img id="products__display__cards-itemm--img">
+            <h5>Electric Guitars</h5>
+            <p class="my-0 ml-5 co-l f-hl">
+              (miKro, RGD, Iceman and RG.)
+            </p>
+          </div>
+          <div class="products__display__cards ai-c jc-sb">
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemm--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">miKro GRGM21 Electric Guitar</h6>
+                <p class="co-r f-gb my-0">Best in Bases</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹65,000</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemg--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">RGD Prestige Guitar</h6>
+                <p class="co-r f-gb my-0">GDR4327</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹50,000</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemi--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Iceman Guitar</h6>
+                <p class="co-r f-gb my-0">ICTB721</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹90,000</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemj--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">RG J.custum Guitar</h6>
+                <p class="co-r f-gb my-0">RG8570Z</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹85,000</div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+         <div class="products__display w-90 center mt-5 mb-4">
+          <div class="products__display__header ai-c mb-3 co-d">
+            <i class="fas fa-guitar mr-4 co-l"></i>
+            <h5>Accessories</h5>
+            <img id="products__display__cards-itemb--img">
+            <p class="my-0 ml-5 co-l f-hl">
+              (Wireless Systems, Bags, Cables and Strings.)
+            </p>
+          </div>
+          <div class="products__display__cards ai-c jc-sb">
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemb--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Wireless System</h6>
+                <p class="co-r f-gb my-0">WS1</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹6,600</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemc--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Bags</h6>
+                <p class="co-r f-gb my-0">IGB540</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹3,300</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-itemf--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Cables</h6>
+                <p class="co-r f-gb my-0">NS10</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹5,000</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__display__cards-item">
+              <div class="products__display__cards-iteme--img h-50"></div>
+              <div
+                class="products__display__cards-item--content h-50 mx-3 pt-3"
+              >
+                <h6 class="co-dt">Strings</h6>
+                <p class="co-r f-gb my-0">IEGS61MK</p>
+                <span class="co-l"
+                  >From:<span class="co-dt"> India</span></span
+                >
+                <div class="ai-c jc-sb mt-2">
+                  <div class="plus co-l ai-c jc-c">+</div>
+                  <div class="price co-r f-hm">₹4,000</div>
+                  <div class="jdgm-rev-widg__summary"><div class="ssw-stars ssw-stars-large"><i class="ssw-icon-star-empty"></i><i class="ssw-icon-star-empty"></i><i class="ssw-icon-star-empty"></i><i class="ssw-icon-star-empty"></i><i class="ssw-icon-star-empty"></i></div><span class="findify-components--text ssw-review-count">0 reviews</span></div>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div class="products__display w-90 center mt-5">
+              <div class="products__display__header ai-c mb-3 co-d">
+                <i class="fas fa-guitar mr-4 co-l"></i>
+                <img id="products__display__cards-itemm--img">
+                <h5>Electric Guitars</h5>
+                <p class="my-0 ml-5 co-l f-hl">
+                  (miKro, RGD, Iceman and RG.)
+                </p>
+              </div>
+              <div class="products__display__cards ai-c jc-sb">
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemm--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">miKro GRGM21 Electric Guitar</h6>
+                    <p class="co-r f-gb my-0">Best in Bases</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹65,000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemg--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">RGD Prestige Guitar</h6>
+                    <p class="co-r f-gb my-0">GDR4327</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹50,000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemi--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">Iceman Guitar</h6>
+                    <p class="co-r f-gb my-0">ICTB721</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹90,000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemj--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">RG J.custum Guitar</h6>
+                    <p class="co-r f-gb my-0">RG8570Z</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹85,000</div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="products__display w-90 center mt-5">
+              <div class="products__display__header ai-c mb-3 co-d">
+                <i class="fas fa-guitar mr-4 co-l"></i>
+                <img id="products__display__cards-itemm--img">
+                <h5>Electric Guitars</h5>
+                <p class="my-0 ml-5 co-l f-hl">
+                  (miKro, RGD, Iceman and RG.)
+                </p>
+              </div>
+              <div class="products__display__cards ai-c jc-sb">
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemm--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">miKro GRGM21 Electric Guitar</h6>
+                    <p class="co-r f-gb my-0">Best in Bases</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹65,000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemg--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">RGD Prestige Guitar</h6>
+                    <p class="co-r f-gb my-0">GDR4327</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹50,000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemi--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">Iceman Guitar</h6>
+                    <p class="co-r f-gb my-0">ICTB721</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹90,000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="products__display__cards-item">
+                  <div class="products__display__cards-itemj--img h-50"></div>
+                  <div
+                    class="products__display__cards-item--content h-50 mx-3 pt-3"
+                  >
+                    <h6 class="co-dt">RG J.custum Guitar</h6>
+                    <p class="co-r f-gb my-0">RG8570Z</p>
+                    <span class="co-l"
+                      >From:<span class="co-dt"> India</span></span
+                    >
+                    <div class="ai-c jc-sb mt-2">
+                      <div class="plus co-l ai-c jc-c">+</div>
+                      <div class="price co-r f-hm">₹85,000</div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+          </div>
+         </div>
+         </div>
+         </main>
+    <footer>
+      <div class="elfsight-app-05ca8f0e-2bce-414b-9f17-8114203f6bdf"></div>
+      
+      <div class="footer__main h-80 w-90 center jc-sb pt-4">
+        <div class="footer__main__about px-3">
+          <div class="footer__main__about__logo">
+            <div class="ai-c jc-c mb-3">
+              <div class="footer__logo mr-3">
+                <img
+                  class="footer__logo__img"
+                  src="images/hexagon-icon.png"
+                  alt="hexagon-icon"
+                />
+              </div>
+              <div class="footer__logo__name brand-name--sm-w">Hexagon Music Inc</div>
+            </div>
+          </div>
+          <p class="co-l f-hl">
+            The guitar is a fretted musical instrument that typically has six strings. It is usually held flat against 
+            the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously 
+            pressing selected strings against frets with the fingers of the opposite hand. A plectrum or individual finger 
+            picks may also be used to strike the strings. The sound of the guitar is projected either acoustically, by means 
+            of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.
+          </p>
+        </div>
+        
+        <div class="footer__main__categories px-3">
+          <div class="footer__main--title">CATEGORIES</div>
+          <div class="jc-sb">
+            <ul class="links">
+              <li><a aria-label="this is a button" href="#">ADS</a></li>
+              <li><a aria-label="this is a button" href="#hotads__main_content-img">Acoustic Guitars</a></li>
+              <li><a aria-label="this is a button" href="#products__display__cards-item--img">Electronic Guitars</a></li>
+              <li><a aria-label="this is a button" href="#products__display__cards-itemm--img">Accessories</a></li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="footer__main__navigation px-3">
+          <div class="footer__main--title">NAVIGATION</div>
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+        <div class="footer__main__options px-3 flex-col jc-c">
+          <div class="footer__main__options--item jc-sb ai-c">
+            <span class="co-r f-gb w-50">COUNTRY</span>
+            <button type="button" class="btn-transparent w-50">India</button>
+          </div>
+          <div class="footer__main__options--item jc-sb ai-c my-2">
+            <span class="co-r f-gb w-50">LANGUAGE</span>
+            <button type="button" class="btn-transparent w-50">English</button>
+          </div>
+          <div class="footer__main__options--item jc-sb ai-c">
+            <span class="co-r f-gb w-50">CURRENCY</span>
+            <button type="button" class="btn-transparent w-50">INR</button>
+          </div>
+        </div>
+      </div>
+     
+      <div class="footer__bottom ai-c jc-sb px-6">
+        <div class="footer__bottom__copyright co-l">
+          Copyright© 2022 All Rights Reserved, Made by 
+        <a href="https://instagram.com/saikrishna_____?igshid=YmMyMTA2M2Y=" target="_blank"><h5>Saikrishna Mothku</h5></a> 
+        </div>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KikNLVRVWiNWIY" async> </script> </form>
+        <div class="footer__bottom__social">
+          <a aria-label="this is a button" href="https://www.facebook.com/saikrishna.mothku.1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a aria-label="this is a button" href="https://twitter.com/saikris00790132" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a aria-label="this is a button" href="https://www.linkedin.com/in/saikrishna-mothku-a61727173/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a aria-label="this is a button" href="https://github.com/Mothku" target="_blank"><i class="fab fa-github-alt"></i></a>
+          <a aria-label="this is a button" href="https://stackoverflow.com/users/19867734/mothku-sai-krishna" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+          
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+247402918

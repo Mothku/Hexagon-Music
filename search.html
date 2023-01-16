@@ -1,0 +1,518 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/ad0c4e912f.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <title>Hexagon Music Inc</title>
+    <link rel="icon" href="images/hexagon-icon.png"" type="image/hexagon-icon">
+  </head>
+
+  
+  <body class="w-100">
+    <header class="bg-dark w-100">
+      <nav class="nav-bar ai-c jc-sb py-1 max-w-0 w-95">
+        <div class="nav--left ai-c">
+          <div class="nav__brand">
+            <div class="nav__brand__logo mr-2">
+              <img
+                class="nav__brand__logo__img" src="images/hexagon-icon.png" alt="hexagon-icon"/>
+               
+                
+              
+            </div>
+            <div class="nav__brand__name">
+              <a class="brand-name--sm-w" href="#">Hexagon</a>
+            </div>
+          </div>
+
+          <div class="nav__menu--short px-3 py-1 ai-c">
+            <div>
+              <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+          </div>
+
+          <div class="nav__menu ai-c tupper">
+            <a class="nav__menu__item" href="index.html">
+              <div class="nav__menu__item co-r ai-c">
+                <div class="nav__menu__item-icon mr-2">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="nav__menu_item-text">home</div>
+              </div>
+            </a>
+
+            <a class="nav__menu__item" href="#">
+              <div class="nav__menu__item co-l ai-c">
+                <div class="nav__menu__item-icon mr-2">
+                  <i class="fas fa-record-vinyl"></i>
+                </div>
+                <div class="nav__menu_item-text">collection</div>
+              </div>
+            </a>
+
+            <a class="nav__menu__item" href="#">
+              <div class="nav__menu__item co-l ai-c">
+                <div class="nav__menu__item-icon mr-2">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="nav__menu_item-text">shopping</div>
+              </div>
+            </a>
+          </div>
+
+          
+        </div>
+        <div class="profile-icon d-none d-md-flex d-lg-none">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="nav--right ai-c d-none d-lg-flex h-100">
+          <div class="messages mr-4">
+            <a href="#"><i class="fas fa-envelope co-l"></i></a>
+          </div>
+          <div class="profile h-100 ai-c">
+            <div class="profile__name co-w mr-2 f-gb">Saikrishna Mothku</div>
+            <div class="profile__img h-100 ai-c">
+              <img class="h-100 round" src="images/face.jpg" alt="face" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <header class="upper-page container-fluid bg-red py-3">
+      <img class="watermark" src="images/b.png" alt="hexagon-big" />
+      <div class="z-2 container max-w-90 w-90">
+        <div class="container flex-col">
+          <div class="brand-name--lg-w-page w-mc">Hexagon Music Inc</div>
+          <h1 class="co-w f-hl w-mc">
+            Your marketplace for buying and selling Musical Instruments
+          </h1>
+        </div>
+        <div class="search container-fluid ai-c jc-sb w-100">
+          <div class="search-top h-search ai-c">
+            <div
+              class="search__dropdown bg-white h-100 w-20 bord-r-red ai-c pl-1 pr-3 d-none d-md-flex"
+            >
+              <div class="search__dropdown-icon co-dt m-2">
+                <i class="fas fa-caret-down"></i>
+              </div>
+              <div class="search__dropdown-text co-dt f-gl">Instruments</div>
+            </div>
+            <div
+              class="search__question bg-white h-100 bord-r-red co-l ai-c f-gl pl-2"
+            >
+              What do you search for?
+            </div>
+            <input
+              type="text"
+              placeholder="Search"
+              class="search__input h-100 co-l"
+            />
+          </div>
+          <div class="search-btn-div h-100">
+            <button type="button" class="search__button btn-dark w-100">
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page-flex bg-lighter jc-c px-5">
+      <aside class="aside-flex py-3 d-none d-md-block">
+        <div class="aside__block__title ml-3 mb-3 pb-1 bord-b f-gb co-dt">
+          Products
+        </div>
+        <div class="aside__header ai-c">
+          <label class="container ai-c">
+            <input type="checkbox" />
+            <span class="ml-2 co-dt">Acoustic</span>
+          </label>
+          <label class="container ai-c">
+            <input type="checkbox" />
+            <span class="ml-2 co-dt">Electric</span>
+          </label>
+          <label class="container ai-c">
+            <input type="checkbox" />
+            <span class="ml-2 co-dt">Bases </span>
+          </label>
+        </div>
+        <div class="aside__block py-2">
+          <div class="aside__block__title ml-3 mb-3 pb-1 bord-b f-gb co-dt">
+            Type
+          </div>
+          <div class="aside__block__content">
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Classical</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Folk</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Flat</span>
+            </label>
+          </div>
+        </div>
+        <div class="aside__block py-2">
+          <div class="aside__block__title ml-3 mb-3 pb-1 bord-b f-gb co-dt">
+            Brand
+          </div>
+          <div class="aside__block__content">
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Blackstar</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Charvel</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Epiphone</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">ESP</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">EVH</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Fender</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">G&L</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Gibson</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">Jackson</span>
+            </label>
+          </div>
+        </div>
+        <div class="aside__block py-2">
+          <div class="aside__block__title ml-3 mb-3 pb-1 bord-b f-gb co-dt">
+            Price Range
+          </div>
+          <div class="aside__block__content">
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">11,000 - 20,000</span>
+            </label>
+            <label class="container ai-c">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">21,000 - 30,000</span>
+            </label>
+            <label class="container ai-c d-none d-md-block">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">31,000 - 40,000</span>
+            </label>
+            <label class="container ai-c d-none d-md-block">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">41,000 - 50,000</span>
+            </label>
+            <label class="container ai-c d-none d-md-block">
+              <input type="checkbox" />
+              <span class="ml-2 co-dt">51,000 - 60,000</span>
+            </label>
+          </div>
+        </div>
+      </aside>
+      <div>
+        <section class="results bg-lighter bord-x">
+          <div class="results__header">
+            <p class="results__header-p co-dt bord-b py-3 pl-3 m-0">
+              1020 Results for <b>"Flat Electric"</b> search at Montreal in
+              Category <b>Guitars.</b>
+            </p>
+          </div>
+
+          <div class="results__block bord-b mb-2">
+            <div class="container w-100 ai-c h-100 px-0">
+              <div class="results__main flex-col w-100 h-100 px-3">
+                <div class="results__main_content jc-sb">
+                  <div class="results__main_content-imgdd"></div>
+                  <a href="a"></a>
+                  <div class="results__main_content-info py-3 pl-3">
+                    <div class="jc-sb">
+                      <h5 class="co-dt f-hm mb-0 ai-c">
+                        AEG 50L Acoustic Guitar
+                      </h5>
+                      <div class="plus--page co-l ai-c jc-c">+</div>
+                    </div>
+                    <p class="co-r f-gb mx-0">New</p>
+                    <p class="f-hl co-d">
+                      The guitar is a fretted musical instrument that typically has six strings. It is usually held flat against 
+                      the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously 
+                      pressing selected strings against frets with the fingers of the opposite hand. A plectrum or individual finger 
+                      picks may also be used to strike the strings. The sound of the guitar is projected either acoustically, by means 
+                      of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.
+                    </p>
+                    <p class="co-d">
+                      <b>By:</b> <span class="co-l f-hl">Saikrishna Mothku</span>
+                    </p>
+                    <p class="mb-0 co-d">
+                      <b>Location:</b>
+                      <span class="co-l f-hl">India</span>
+                    </p>
+                    <div
+                      class="results__main_content-info-bottom ai-c mt-2 jc-sb"
+                    >
+                      <p class="co-l f-hm">10 Sep, 2022</p>
+                      <div>
+                        <button type="button" class="temp-btn btn-red">
+                          Give a Call
+                        </button>
+                        <button type="button" class="btn-red">
+                          50,000
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="results__block bord-y mb-2">
+            <div class="container w-100 ai-c h-100 px-0">
+              <div class="results__main flex-col w-100 h-100 px-3">
+                <div class="results__main_content jc-sb">
+                  <div class="results__main_content-imgaa"></div>
+                  <div class="results__main_content-info w-55 py-3 pl-3">
+                    <div class="jc-sb">
+                      <h5 class="co-dt f-hm mb-0 ai-c">
+                        Classical Acoustic Guitar
+                      </h5>
+                      <div class="plus--page co-l ai-c jc-c">+</div>
+                    </div>
+                    <p class="co-r f-gb mx-0">New</p>
+                    <p class="f-hl co-d">
+                      The guitar is a fretted musical instrument that typically has six strings. It is usually held flat against 
+            the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously 
+            pressing selected strings against frets with the fingers of the opposite hand. A plectrum or individual finger 
+            picks may also be used to strike the strings. The sound of the guitar is projected either acoustically, by means 
+            of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.
+                    </p>
+                    <p class="co-d">
+                      <b>By:</b> <span class="co-l f-hl">Saikrishna Mothku</span>
+                    </p>
+                    <p class="mb-0 co-d">
+                      <b>Location:</b>
+                      <span class="co-l f-hl">India</span>
+                    </p>
+                    <div
+                      class="results__main_content-info-bottom ai-c mt-2 jc-sb"
+                    >
+                      <p class="co-l f-hm">10 Sep, 2022</p>
+                      <div>
+                        <button type="button" class="temp-btn btn-red">
+                          Give a Call
+                        </button>
+                        <button type="button" class="btn-red">
+                          45,000
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="results__block bord-y mb-2">
+            <div class="container w-100 ai-c h-100 px-0">
+              <div class="results__main flex-col w-100 h-100 px-3">
+                <div class="results__main_content jc-sb">
+                  <div class="results__main_content-imgbb"></div>
+                  <div class="results__main_content-info w-55 py-3 pl-3">
+                    <div class="jc-sb">
+                      <h5 class="co-dt f-hm mb-0 ai-c">RGD Prestige Guitar - GDR4327</h5>
+                        
+                      <div class="plus--page co-l ai-c jc-c">+</div>
+                    </div>
+                    <p class="co-r f-gb mx-0">New</p>
+                    <p class="f-hl co-d">
+                      The guitar is a fretted musical instrument that typically has six strings. It is usually held flat against 
+            the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously 
+            pressing selected strings against frets with the fingers of the opposite hand. A plectrum or individual finger 
+            picks may also be used to strike the strings. The sound of the guitar is projected either acoustically, by means 
+            of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.
+                    </p>
+                    <p class="co-d">
+                      <b>By:</b> <span class="co-l f-hl">Saikrishna Mothku</span>
+                    </p>
+                    <p class="mb-0 co-d">
+                      <b>Location:</b>
+                      <span class="co-l f-hl">India</span>
+                    </p>
+                    <div
+                      class="results__main_content-info-bottom ai-c mt-2 jc-sb"
+                    >
+                      <p class="co-l f-hm">10 Sep, 2022</p>
+                      <div>
+                        <button type="button" class="temp-btn btn-red">
+                          Give a Call
+                        </button>
+                        <button type="button" class="btn-red">
+                          40,000
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="results__block bord-y mb-2">
+            <div class="container w-100 ai-c h-100 px-0">
+              <div class="results__main flex-col w-100 h-100 px-3">
+                <div class="results__main_content jc-sb">
+                  <div class="results__main_content-imgcc"></div>
+                  <div class="results__main_content-info w-55 py-3 pl-3">
+                    <div class="jc-sb">
+                      <h5 class="co-dt f-hm mb-0 ai-c">
+                        Iceman Guitar - ICTB721 
+                      </h5>
+                      <div class="plus--page co-l ai-c jc-c">+</div>
+                    </div>
+                    <p class="co-r f-gb mx-0">New</p>
+                    <p class="f-hl co-d">
+                      The guitar is a fretted musical instrument that typically has six strings. It is usually held flat against 
+            the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously 
+            pressing selected strings against frets with the fingers of the opposite hand. A plectrum or individual finger 
+            picks may also be used to strike the strings. The sound of the guitar is projected either acoustically, by means 
+            of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.
+                    </p>
+                    <p class="co-d">
+                      <b>By:</b> <span class="co-l f-hl">Saikrishna Mothku</span>
+                    </p>
+                    <p class="mb-0 co-d">
+                      <b>Location:</b>
+                      <span class="co-l f-hl">India</span>
+                    </p>
+                    <div
+                      class="results__main_content-info-bottom ai-c mt-2 jc-sb"
+                    >
+                      <p class="co-l f-hm">10 Sep, 2022</p>
+                      <div>
+                        <button type="button" class="temp-btn btn-red">
+                          Give a Call
+                        </button>
+                        <button type="button" class="btn-red">
+                          45,000
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="page-selector"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__main h-80 w-90 center jc-sb pt-4">
+        <div class="footer__main__about px-3">
+          <div class="footer__main__about__logo">
+            <div class="ai-c jc-c mb-3">
+              <div class="footer__logo mr-3">
+                <img
+                  class="footer__logo__img"
+                  src="images/hexagon-icon.png"
+                  alt="hexagon-icon"
+                />
+              </div>
+              <div class="footer__logo__name brand-name--sm-w">Hexagon Music Inc</div>
+            </div>
+          </div>
+          
+          <p class="co-l f-hl">
+            The guitar is a fretted musical instrument that typically has six strings. It is usually held flat against 
+            the player's body and played by strumming or plucking the strings with the dominant hand, while simultaneously 
+            pressing selected strings against frets with the fingers of the opposite hand. A plectrum or individual finger 
+            picks may also be used to strike the strings. The sound of the guitar is projected either acoustically, by means 
+            of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.
+          </p>
+        </div>
+        <div class="footer__main__categories px-3">
+          <div class="footer__main--title">CATEGORIES</div>
+          <div class="jc-sb">
+            <ul class="links">
+              <li><a href="a">Guitars</a></li>
+              <li><a href="#">Violins</a></li>
+              <li><a href="#">Flutes</a></li>
+              <li><a href="#">Pianos</a></li>
+              <li><a href="#">Percussion</a></li>
+              <li><a href="#">Equipments</a></li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="footer__main__navigation px-3">
+          <div class="footer__main--title">NAVIGATION</div>
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+        <div class="footer__main__options px-3 flex-col jc-c">
+          <div class="footer__main__options--item jc-sb ai-c">
+            <span class="co-r f-gb w-50">COUNTRY</span>
+            <button type="button" class="btn-transparent w-50">India</button>
+          </div>
+          <div class="footer__main__options--item jc-sb ai-c my-2">
+            <span class="co-r f-gb w-50">LANGUAGE</span>
+            <button type="button" class="btn-transparent w-50">
+              English
+            </button>
+          </div>
+          <div class="footer__main__options--item jc-sb ai-c">
+            <span class="co-r f-gb w-50">CURRENCY</span>
+            <button type="button" class="btn-transparent w-50">INR</button>
+          </div>
+        </div>
+      </div>
+      <div class="elfsight-app-05ca8f0e-2bce-414b-9f17-8114203f6bdf"></div>
+      <div class="footer__bottom">
+        <div class="footer__bottom__copyright co-l">
+          <p>Copyright© 2022 All Rights Reserved, Made by 
+            <a href="https://instagram.com/saikrishna_____?igshid=YmMyMTA2M2Y" target="_blank"><h5>Saikrishna Mothku</h5></a></p>
+        </div>
+        <div class="footer__bottom__social jc-c">
+          <a aria-label="this is a button" href="https://www.facebook.com/saikrishna.mothku.1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/saikris00790132" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/saikrishna-mothku-a61727173/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Mothku" target="_blank"><i class="fab fa-github-alt"></i></a>
+          <a href="https://stackoverflow.com/users/19867734/mothku-sai-krishna" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
